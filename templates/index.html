@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eval-X | Built by Rudra</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 2rem 1rem 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .description {
+      font-size: 1rem;
+      color: #555;
+      max-width: 600px;
+      margin: 0 auto 2rem;
+      line-height: 1.6;
+    }
+
+    .chat-box {
+      width: 100%;
+      max-width: 600px;
+      background: #f5f5f5;
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+
+    #questionForm {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      padding: 1rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+    }
+
+    button {
+      padding: 0.8rem 1.2rem;
+      font-size: 1rem;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #333;
+    }
+
+    .upload-icon {
+      background-color: #000;
+      color: #fff;
+      border-radius: 8px;
+      font-weight: bold;
+      padding: 0.8rem 1.2rem;
+      cursor: pointer;
+    }
+
+    .upload-icon:hover {
+      background-color: #333;
+    }
+
+    .response {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      white-space: pre-wrap;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 2rem 1rem;
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+      max-width: 800px;
+    }
+
+    footer strong {
+      color: #000;
+    }
+
+    @media (max-width: 600px) {
+      .chat-box, footer {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Eval-X</h1>
+    <div class="description">
+      Built by <strong>Rudra Thorat</strong> — Eval-X is an intelligent AI interface that runs completely offline using open-source LLMs.
+      No tokens. No cloud. Just pure local power and a clean 2026-ready experience.
+    </div>
+  </header>
+
+  <div class="chat-box">
+    <form id="questionForm">
+      <input type="text" id="question" placeholder="Ask anything..." required />
+      <button type="submit">Ask LLaMA 3</button>
+      <label class="upload-icon" for="csvFile">+</label>
+      <input type="file" id="csvFile" accept=".csv" style="display:none" />
+    </form>
+    <div id="response" class="response"></div>
+  </div>
+
+  <footer>
+    <strong>Why Eval-X?</strong><br>
+    Eval-X was built to reclaim control in an AI landscape dominated by paywalls. It’s minimal, fast, and fiercely independent.<br><br>
+    ⚡ 100% local <br>
+    🧠 Private and intelligent<br>
+    🧩 Future-ready (CSV support, fine-tuning, RAG add-ons)<br>
+    🎯 No subscriptions or keys required<br><br>
+    <strong>Built by Rudra Thorat | Minimalist & intelligent</strong>
+  </footer>
+
+  <script>
+    const form = document.getElementById("questionForm");
+    const input = document.getElementById("question");
+    const responseDiv = document.getElementById("response");
+    const csvInput = document.getElementById("csvFile");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const question = input.value.trim();
+      if (!question) return;
+      responseDiv.innerText = "Thinking...";
+      try {
+        const res = await fetch("/evaluate", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ question })
+        });
+        const data = await res.json();
+        responseDiv.innerHTML = data.answer.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+
+      } catch (err) {
+        responseDiv.innerText = "Something went wrong. Please try again.";
+      }
+    });
+
+    csvInput.addEventListener("change", async () => {
+      const file = csvInput.files[0];
+      if (!file) return;
+
+      const formData = new FormData();
+      formData.append("file", file);
+
+      try {
+        const res = await fetch("/upload_csv", {
+          method: "POST",
+          body: formData
+        });
+        const data = await res.json();
+        responseDiv.innerText = data.message;
+      } catch (err) {
+        responseDiv.innerText = "CSV upload failed.";
+      }
+    });
+  </script>
+</body>
+</html>

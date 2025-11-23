@@ -1,0 +1,101 @@
+Patient_ID,Name,Age,Gender,City,Diagnosis,Prescribed_Drug,Dosage,Frequency,Doctor,Visit_Date
+PAT001,Charles Obrien,33,Female,Pune,Thyroid,Amlodipine,19mg,Thrice daily,Teresa Newman,2025-05-08
+PAT002,Patricia Williams,77,Female,Pune,Diabetes,Salbutamol,14mg,Once daily,Mr. Barry Ward,2025-02-19
+PAT003,Cindy Brown,48,Female,Ahmedabad,Thyroid,Levothyroxine,47mg,Twice daily,Dean Fowler,2025-07-25
+PAT004,Juan Salinas,30,Male,Surat,Migraine,Sumatriptan,86mg,As needed,Andrew Garrett,2024-09-05
+PAT005,Tiffany Smith,34,Male,Nashik,Asthma,Sumatriptan,9mg,Thrice daily,Laura Wilson,2025-03-08
+PAT006,Aaron Cox,65,Female,Surat,Diabetes,Amlodipine,45mg,As needed,Johnny Diaz,2025-03-07
+PAT007,Jeffrey Randolph,33,Female,Ahmedabad,Thyroid,Amlodipine,54mg,As needed,Sara Myers,2025-05-20
+PAT008,Andre Owens,26,Female,Ahmedabad,Migraine,Ibuprofen,35mg,Once daily,Nicholas Willis,2024-09-23
+PAT009,April Haynes,67,Female,Nagpur,Thyroid,Levothyroxine,27mg,As needed,Karen Jones,2024-10-29
+PAT010,Amber Williams,55,Male,Surat,Asthma,Metformin,93mg,Twice daily,Jason Lucero,2025-01-17
+PAT011,Jasmine Phillips,19,Male,Nashik,Arthritis,Salbutamol,13mg,Thrice daily,Erica Kim,2024-10-31
+PAT012,Juan Campbell,36,Female,Mumbai,Asthma,Amlodipine,18mg,Once daily,George Meza,2024-08-10
+PAT013,Joel Sloan,80,Female,Nagpur,Thyroid,Metformin,22mg,Twice daily,Evelyn Williams,2024-11-03
+PAT014,Sharon Clark,66,Male,Surat,Asthma,Levothyroxine,99mg,Once daily,Nancy Sullivan,2024-11-26
+PAT015,Jennifer Smith,31,Female,Pune,Hypertension,Ibuprofen,89mg,Once daily,Nathan Luna,2024-08-12
+PAT016,James Norman,42,Female,Ahmedabad,Hypertension,Salbutamol,19mg,Twice daily,Hayden Daniel,2025-01-21
+PAT017,Autumn Schneider,21,Male,Pune,Hypertension,Metformin,44mg,Twice daily,Brian May,2025-05-08
+PAT018,Katherine Johnson,45,Male,Mumbai,Arthritis,Ibuprofen,54mg,As needed,Mark Griffin,2024-09-30
+PAT019,Amy Jones,47,Male,Nagpur,Migraine,Ibuprofen,31mg,As needed,Crystal Thomas,2025-03-23
+PAT020,Tiffany Edwards,69,Female,Mumbai,Asthma,Salbutamol,90mg,As needed,Brian Rojas,2025-07-19
+PAT021,Marilyn Olson,80,Male,Nagpur,Hypertension,Amlodipine,9mg,Thrice daily,Frank Walton,2024-11-03
+PAT022,Jonathan Clark,31,Male,Pune,Arthritis,Levothyroxine,75mg,Once daily,Deanna Herman,2025-01-08
+PAT023,Jose Leach,43,Male,Mumbai,Arthritis,Levothyroxine,37mg,Twice daily,James Davis,2025-04-06
+PAT024,Evelyn Douglas,20,Male,Ahmedabad,Migraine,Levothyroxine,52mg,Once daily,Candice Santiago,2025-05-26
+PAT025,Justin Nelson,66,Male,Nashik,Migraine,Ibuprofen,27mg,Twice daily,Danielle Villegas,2024-08-16
+PAT026,Kathleen Stewart,74,Male,Nashik,Arthritis,Amlodipine,82mg,Once daily,Paul Foster,2024-10-20
+PAT027,James Williams,62,Male,Nashik,Arthritis,Metformin,53mg,As needed,John George,2024-10-26
+PAT028,James Carson,74,Female,Nashik,Arthritis,Metformin,56mg,As needed,Andrew Odonnell,2025-04-03
+PAT029,Gina Bell,36,Male,Mumbai,Thyroid,Sumatriptan,35mg,Twice daily,Kristin Todd,2024-10-09
+PAT030,Zachary Lynch,39,Male,Nashik,Thyroid,Metformin,13mg,As needed,Kathleen Fry,2024-12-05
+PAT031,Matthew Lozano,28,Female,Ahmedabad,Hypertension,Metformin,5mg,As needed,Michael Robertson,2024-09-24
+PAT032,Jacqueline Lee,62,Female,Nagpur,Thyroid,Metformin,34mg,Twice daily,Jason Daniel,2025-08-02
+PAT033,Jonathan Brown,68,Male,Ahmedabad,Thyroid,Salbutamol,66mg,Thrice daily,Lance Johnson,2025-04-26
+PAT034,Anthony Herrera,79,Female,Nagpur,Arthritis,Sumatriptan,72mg,Twice daily,Darren Fisher,2025-05-02
+PAT035,Amber Hall,60,Male,Nagpur,Hypertension,Amlodipine,60mg,Thrice daily,Russell Oneal,2024-09-22
+PAT036,Parker Hughes,59,Male,Ahmedabad,Migraine,Sumatriptan,12mg,Thrice daily,Kyle Avila,2025-06-11
+PAT037,Carla Gibson,18,Male,Pune,Hypertension,Metformin,9mg,Once daily,Samuel Daniel,2025-04-02
+PAT038,Joshua Collier,55,Male,Mumbai,Diabetes,Amlodipine,26mg,As needed,Crystal Stephens,2025-07-04
+PAT039,Andrew Sellers,76,Male,Mumbai,Asthma,Salbutamol,17mg,Twice daily,Monica Robinson,2025-04-26
+PAT040,Robert Landry,21,Male,Mumbai,Hypertension,Salbutamol,84mg,Once daily,Melanie Berry,2024-10-28
+PAT041,David Taylor,77,Male,Nagpur,Migraine,Salbutamol,33mg,Thrice daily,Jamie Wiley,2025-03-24
+PAT042,Jacob Young,76,Male,Nashik,Asthma,Ibuprofen,7mg,Thrice daily,Nicole Eaton,2025-02-20
+PAT043,Becky Barnes,43,Male,Pune,Diabetes,Ibuprofen,76mg,Once daily,Elizabeth Rowe,2024-12-07
+PAT044,Elizabeth Galloway,40,Female,Ahmedabad,Thyroid,Levothyroxine,62mg,Once daily,Jerry Carpenter,2025-03-24
+PAT045,Anthony Lopez,27,Female,Mumbai,Asthma,Ibuprofen,50mg,Twice daily,Kayla Davis,2025-07-16
+PAT046,Francis Nguyen,19,Male,Mumbai,Thyroid,Salbutamol,67mg,As needed,Andrew Cardenas,2024-09-13
+PAT047,Shawn Fuller,38,Female,Nashik,Migraine,Amlodipine,59mg,Twice daily,Timothy Freeman,2025-07-17
+PAT048,Rebecca Faulkner MD,47,Male,Mumbai,Thyroid,Levothyroxine,12mg,Thrice daily,Melissa Wise,2025-01-05
+PAT049,Rodney Collins,24,Male,Nashik,Hypertension,Levothyroxine,61mg,Once daily,Erin King,2024-12-04
+PAT050,Kyle Reeves,69,Female,Nagpur,Diabetes,Ibuprofen,17mg,Thrice daily,Harold Gray,2024-12-22
+PAT051,Breanna Baker,72,Female,Nagpur,Migraine,Salbutamol,45mg,As needed,Meghan Rodgers,2025-06-13
+PAT052,Mrs. Mariah Walker,71,Female,Mumbai,Asthma,Salbutamol,82mg,As needed,Alicia Hunt,2024-11-28
+PAT053,Charles Gonzales,75,Male,Mumbai,Arthritis,Ibuprofen,7mg,Thrice daily,Kathleen Walker,2025-02-19
+PAT054,Jorge Ramirez,20,Male,Nashik,Diabetes,Levothyroxine,46mg,Once daily,Greg Douglas,2025-05-07
+PAT055,Christopher Morrison,64,Male,Ahmedabad,Migraine,Amlodipine,57mg,Thrice daily,Alexander Graves,2025-05-05
+PAT056,Steve Howell,58,Male,Pune,Migraine,Sumatriptan,16mg,Thrice daily,Kimberly Chavez,2024-08-22
+PAT057,Sydney House,26,Male,Nagpur,Asthma,Salbutamol,41mg,Twice daily,Jennifer Garcia,2024-11-03
+PAT058,Katrina Williamson,21,Male,Nagpur,Arthritis,Salbutamol,88mg,Twice daily,Peter Ray,2025-03-29
+PAT059,Laurie Nelson,26,Male,Ahmedabad,Arthritis,Levothyroxine,60mg,As needed,Caleb Norton,2025-02-15
+PAT060,Karen Morgan,36,Male,Ahmedabad,Diabetes,Levothyroxine,71mg,As needed,Gina Dudley,2025-07-21
+PAT061,Chelsea Davis,45,Male,Nashik,Migraine,Metformin,37mg,Thrice daily,Jasmine Stone,2025-04-06
+PAT062,Mitchell Faulkner,38,Female,Surat,Asthma,Amlodipine,40mg,Once daily,Christopher Jones,2024-12-05
+PAT063,Brandy Molina,67,Female,Pune,Migraine,Salbutamol,39mg,Thrice daily,Robert Hernandez,2025-02-13
+PAT064,Amber Hines,24,Female,Ahmedabad,Hypertension,Ibuprofen,84mg,As needed,Brian Santiago DDS,2025-02-12
+PAT065,Anthony Randall,33,Male,Ahmedabad,Arthritis,Ibuprofen,69mg,Thrice daily,Andrew Carr,2025-06-02
+PAT066,Abigail Miller,45,Male,Surat,Migraine,Metformin,73mg,Once daily,Lori Hodge,2024-11-27
+PAT067,Jesse Robertson PhD,51,Female,Nashik,Hypertension,Sumatriptan,73mg,Twice daily,Heather Stanley,2024-11-15
+PAT068,Steven Cook,80,Female,Pune,Thyroid,Ibuprofen,49mg,As needed,Christina Gonzalez,2024-08-26
+PAT069,Casey Lane,59,Female,Nagpur,Hypertension,Sumatriptan,49mg,As needed,Ashley Banks,2025-02-16
+PAT070,Tracy Hodges,46,Male,Nagpur,Diabetes,Salbutamol,45mg,Thrice daily,Aaron Anderson,2024-12-25
+PAT071,Rick Daniel,26,Male,Nagpur,Diabetes,Sumatriptan,75mg,Once daily,Albert Wilson,2025-05-08
+PAT072,Dan Ross,64,Female,Mumbai,Thyroid,Sumatriptan,53mg,As needed,Amy Anderson,2024-12-22
+PAT073,Tina Gonzalez,67,Male,Pune,Migraine,Metformin,36mg,Thrice daily,Lisa Hawkins,2025-07-23
+PAT074,Andrew Thompson,28,Male,Nashik,Diabetes,Ibuprofen,26mg,Thrice daily,Andrew Weeks,2024-10-15
+PAT075,Jennifer Gibson,27,Male,Nashik,Thyroid,Salbutamol,33mg,Twice daily,Aaron Leon,2025-02-23
+PAT076,Lisa Scott,19,Female,Pune,Asthma,Amlodipine,66mg,Thrice daily,Clarence Henry,2025-03-04
+PAT077,Caitlyn Osborn,19,Female,Surat,Thyroid,Amlodipine,70mg,Once daily,Robert Collins,2024-09-01
+PAT078,Mary Wilson,79,Female,Ahmedabad,Diabetes,Levothyroxine,89mg,Thrice daily,Terry Ray,2025-01-21
+PAT079,Alejandro Harris,48,Female,Surat,Diabetes,Salbutamol,92mg,As needed,Terry Shaffer Jr.,2025-05-15
+PAT080,Tara Allen,79,Female,Ahmedabad,Thyroid,Sumatriptan,44mg,Thrice daily,Lindsay West,2025-06-23
+PAT081,Mrs. Amber Campbell DVM,54,Male,Surat,Hypertension,Sumatriptan,26mg,Twice daily,Amy Terrell,2025-02-28
+PAT082,Charles Nixon,63,Male,Pune,Asthma,Salbutamol,28mg,Thrice daily,Mr. Daryl Hall MD,2025-04-17
+PAT083,Alisha Haney,57,Male,Nashik,Arthritis,Levothyroxine,66mg,As needed,Manuel Perry,2025-02-14
+PAT084,Lisa Mason,70,Male,Nashik,Arthritis,Ibuprofen,71mg,Once daily,Robert Horton,2025-01-22
+PAT085,Jessica Summers,64,Male,Nagpur,Asthma,Salbutamol,21mg,Once daily,Devin Baker,2025-01-29
+PAT086,Mark Branch,33,Male,Pune,Arthritis,Salbutamol,83mg,Once daily,Ashley Evans,2024-10-30
+PAT087,Diane Gonzalez,56,Female,Nashik,Migraine,Amlodipine,22mg,As needed,Derrick Chapman,2025-02-27
+PAT088,Mr. Paul Goodman Jr.,65,Male,Nagpur,Asthma,Sumatriptan,98mg,As needed,Julie Yates,2024-08-14
+PAT089,Danielle Church,35,Female,Ahmedabad,Diabetes,Levothyroxine,34mg,As needed,Melissa Keller,2025-07-11
+PAT090,Alejandro Price,73,Female,Nashik,Thyroid,Metformin,51mg,Once daily,Lonnie Boyer,2025-04-15
+PAT091,Donald Lewis,44,Male,Mumbai,Arthritis,Levothyroxine,39mg,Thrice daily,Brianna Elliott,2025-01-07
+PAT092,Randall Hardin,79,Female,Surat,Diabetes,Levothyroxine,49mg,Thrice daily,Gina Lyons,2025-07-21
+PAT093,Amy Scott,55,Female,Surat,Thyroid,Metformin,96mg,Once daily,Kevin Monroe,2025-05-21
+PAT094,Brandon Miller,26,Male,Ahmedabad,Migraine,Metformin,27mg,Once daily,Laura Webb,2024-10-21
+PAT095,Heather Camacho,78,Female,Ahmedabad,Arthritis,Sumatriptan,53mg,As needed,Dana Stanley,2025-02-16
+PAT096,Melinda Atkins,53,Female,Surat,Asthma,Metformin,12mg,Once daily,Brandon Norman,2025-06-06
+PAT097,Denise Bishop,20,Male,Pune,Hypertension,Levothyroxine,90mg,As needed,Rebecca Valdez,2024-12-21
+PAT098,Alexander Odom,70,Female,Ahmedabad,Migraine,Sumatriptan,68mg,Thrice daily,Gregory Evans,2025-06-21
+PAT099,Ronald Bowers,24,Male,Surat,Hypertension,Metformin,33mg,Thrice daily,Lauren Foster,2024-11-28
+PAT100,Kevin Sanders,23,Male,Nashik,Hypertension,Salbutamol,64mg,As needed,David Juarez,2024-11-15
